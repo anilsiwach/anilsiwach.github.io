@@ -1,31 +1,433 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-  <style type="text/css">
-  body{
-  	background: url('img/bg.jpg');
-  }
-  .csoon{
-  	color: #909090;
-  	font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
-  	font-size: 2em;
-  	font-weight: 200;
-  	text-align: center;
-  }
-  .container{
-  	padding-top: 140px;
-  }
-  .container img{
-  	display: block;
-  	margin: 0 auto;
-  }
-  </style>
-  	<title>Anil Siwach -- coming soon!</title>
-  </head>
-  <body>
-  	<div class="container">
-  		<img src="img/comingsoon.png">
-  		<div class="csoon"> Coming Soon!</div>
-  	</div>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+          
+    <!-- ===========================
+    THEME INFO
+    =========================== -->
+    <meta name="description" content="Portfolio site for Anil Siwach.">
+    <meta name="keywords" content="Portfolio, Designer, Manager, HTML5, Anil Siwach">
+    <meta name="author" content="Anil Siwach">
+    
+    <!-- ===========================
+    SITE TITLE
+    =========================== -->
+    <title>Anil Siwach</title><!-- This is what you see on your browser tab-->
+    
+    <!-- ===========================
+    FAVICONS
+    =========================== -->
+    <link rel="icon" href="img/favicon.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/apple-touch-icon-ipad-retina.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-iphone-retina.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-ipad.png" />
+    <link rel="apple-touch-icon" sizes="57x57" href="img/apple-touch-icon-iphone.png" />
+     
+    <!-- ===========================
+    STYLESHEETS
+    =========================== -->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animate.css">
+        
+    <!-- ===========================
+    ICONS: 
+    =========================== -->
+    <link rel="stylesheet" href="css/simple-line-icons.css">    
+    
+    <!-- ===========================
+    GOOGLE FONTS
+    =========================== -->    
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Antic|Raleway:300">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+  <!-- ===========================
+   GOOGLE ANALYTICS (Optional)
+   =========================== -->
+    
+    <!--Replace this line with your analytics code-->
+     
+    <!-- Analytics end-->
+  
+   </head>
+    <body data-spy="scroll">
+        <!-- Preloader -->
+        <div id="preloader">           
+            <div id="status">
+                <div class="loadicon  wow tada infinite" data-wow-duration="8s"><img src="img/a.svg"></div>
+            </div>
+        </div>
+        
+       <header>               
+        <!-- ===========================
+        HERO AREA
+        =========================== -->
+        <div id="hero">           
+            <div class="container herocontent">
+                <div class="heroimg"><img src="img/anil.jpg"></div>               
+                <h2 class="wow fadeInUp" data-wow-duration="2s">Anil Siwach</h2>                
+                <h4 class="wow fadeInDown" data-wow-duration="3s">Sr. User Experience Designer @ LinkedIn.</h4>    
+                <small class="icon-pointer wow fadeInDown" data-wow-duration="2s">Gurgaon, India</small>        
+            </div>
+            
+            <!-- Featured image on the Hero area -->
+            <img class="heroshot wow bounceInUp" data-wow-duration="4s" src="img/hero-img1.png" alt="Featured Work">            
+        </div><!--HERO AREA END-->        
+        
+        <!-- ===========================
+         NAVBAR START
+         =========================== -->
+          <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+               <div class="container">
+                   
+                      <div class="navbar-header">
+                       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                           <span class="sr-only">Toggle navigation</span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                           <span class="icon-bar"></span>
+                        </button>
+                        
+                           <a class="navbar-brand" href="#hero">
+                            <span class="brandname">Anil Siwach</span>
+                        </a>
+                    </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right"><!--YOUR NAVIGATION ITEMS STRAT BELOW-->
+                        <li><a href="#about"><span class="btnicon icon-user"></span>About</a></li>
+                        <li><a href="#services"><span class="btnicon icon-cup"></span>Skills</a></li>
+                        <li><a href="#portfolio"><span class="btnicon icon-rocket"></span>Portfolio</a></li>
+                        <li><a href="#testimonials"><span class="btnicon icon-bubble"></span>Testimonials</a></li>
+                        
+                        <!--don't forget to replace my email address below with yours-->
+                        <li><a href="mailto:anilsiwach@gmail.com"><span class="btnicon icon-envelope-open"></span>Contact</a></li>
+                        <li class="active"><a href="resume/resume-anilsiwach.pdf"><span class="btnicon icon-cloud-download"></span>Download CV</a></li>
+                    </ul>
+                
+                </div><!--.nav-collapse -->
+            </div>
+        </nav><!--navbar end-->        
+     </header><!--header end-->     
+
+    <!-- ===========================
+    FEATURED CLIENTS SECTION START
+    =========================== -->
+     <div id="clients">
+         <div class="container">
+             <div class="col-md-3">
+                 <h4>Proudly worked with:</h4>
+             </div>
+             <div class="col-md-9">
+                 <ul><!--CLIENTS LOGO-->
+                     <li><img src="img/lnkd.jpg" alt="LinkeIn"></li>
+                     <li><img src="img/slideshare_logo.png" alt="SlideShare"></li>
+                     <li><img src="img/playstation.jpg" alt="Playstation America"></li>
+                     <li><img src="img/opera.jpg" alt="Opera Software"></li>                     
+                 </ul><!--CLIENTS LOGO END-->
+             </div>
+         </div>
+         <hr><!-- SECTION SEPARETOR LINE -->
+     </div><!--FEATURED CLIENTS SECTION END-->
+     
+    
+    <!-- ===========================
+    ABOUT SECTION START
+    =========================== -->
+     <div id="about" class="container">
+        
+        <!-- LEFT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6">
+            <div class="row">
+             <h2 class="wow fadeInDown" data-wow-duration="2s">Hi, I'm Anil Siwach from India</h2>
+
+             <h4 class="wow fadeInUp" data-wow-duration="3s">A passionate User Experience Designer with handsome experience of handling different stages of product lifecycle!</h4>
+             
+             <p class="wow fadeInDown" data-wow-duration="3s">I love to craft beautiful, engaging user centric experiences that have a real and lasting impact of users. Driven by challanges and excited by thinking products. Have experience in leading teams and managing product deliveries.</p>
+             <p class="wow fadeInDown" data-wow-duration="3s">I strongly believe in design as a process rather than a layer on top of a developed product.</p>
+             <a class="dribbble-follow-button wow bounce" href="http://dribbble.com/anilsiwach"></a>
+             
+             </div> <!-- ABOUT INFO END -->
+             
+            
+            <div class="myapps row">
+                <h5>Tools and apps I use everyday:</h5>
+                
+                <ul><!-- FAVORITE APP ICONS START -->
+                    <li><img class="wow animated bounceInUp" data-wow-duration="1s" src="img/ps.jpg" alt="Photoshop"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="2s" src="img/illustrator.jpg" alt="Illustrator"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="3s" src="img/sketch.jpg" alt="Sketch"></li>
+                    <li><img class="wow animated bounceInUp" data-wow-duration="4s" src="img/sublime.jpg" alt="Sublime Text"></li>
+                    <li><img class="wow bounceInUp" data-wow-duration="5s" src="img/git.jpg" alt="Git"></li>
+                </ul><!-- FAVORITE APP ICONS END -->
+            </div>
+         </div><!-- LEFT PART OF THE ABOUT SECTION END -->
+        <!--Left part end-->
+         
+         <!-- RIGHT PART OF THE ABOUT SECTION -->
+         <div class="col-md-6 wow fadeInUp myphoto" data-wow-duration="4s">
+             <img src="img/user.png" alt="Mamun Srizon">
+         </div><!-- RIGHT PART OF THE ABOUT SECTION END -->        
+     </div><!-- ABOUT SECTION END -->
+        
+    <hr><!-- SECTION SEPARETOR LINE -->
+        
+    <!-- ===========================
+    SERVICE SECTION START
+    =========================== -->
+    <div id="services" class="container">
+       
+        <!-- SERVICE SECTION HEADING START -->
+        <div class="sectionhead  row wow fadeInUp">
+            <span class="bigicon icon-cup "></span>
+            <h3>This is what I can do for you</h3>
+            <hr class="separetor">
+         </div><!--SERVICE SECTION HEADING END-->
+         
+        <!-- SERVICE ITEMS START -->
+        <div class="row">
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/responsive.svg" alt="Responsive design">
+                   <h4>Responsive Web Design</h4>
+                   <p>HTML5 and CSS3, LESS, Twitter Bootstrap, Zurb Foundation.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/mobile.svg" alt="Mobile friendly design">
+                   <h4>Mobile app Design</h4>
+                   <p>iOS apps, Android apps, mobile friendly scalable designs</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/ui.svg" alt="User experience design">
+                   <h4>UX / UI Design</h4>
+                   <p>Photoshop, Sketch, Balsamiq, Information architecture, Prototyping, Use cases, Scenarios.</p>
+                </div> <!-- ITEM END -->
+
+               <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/uresearch.svg" alt="User research">
+                   <h4>User Research</h4>
+                   <p>User interviews, Eye tracking, Reaction time measurement, AB testing, Survey designs.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/promgmt.svg" alt="Project management">
+                   <h4>Project Management</h4>
+                   <p>Resource planning, Task analysis, Affinity Diagram.</p>
+                </div> <!-- ITEM END -->
+
+                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-duration="3s">
+                   <img src="img/ideation.svg" alt="Idea and strategy">
+                   <h4>Ideation and Strategy</h4>
+                   <p>ABC analysis, Product strategy, Think alound protocol, Heuristic evaluation.</p>
+                </div> <!-- ITEM END -->
+        </div><!-- SERVICE ITEMS END-->
+    </div><!-- SERVICE SECTION END -->
+    
+    <!-- ===========================
+    PORTFOLIO SECTION START
+    =========================== -->
+    <div id="portfolio">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+          <span class="bigicon icon-rocket"></span>
+           <h3>A few recent works</h3>
+           <hr class="separetor">            
+        </div><!-- PORTFOLIO SECTION HEAD END -->   
+        
+        <!-- PORTFOLIO ITEMS START -->
+        <div class="portfolioitems container">
+            <ul>
+              <div id="portfoliothumbs">
+                <li>
+                  <a href="professional_journey.html">
+                    <img src="img/portfolio/space.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="professional_journey.html">Space - Professional journey</a>
+                  </h3>
+                </li>
+                <li>
+                  <a href="ss_search.html">
+                    <img src="img/portfolio/search.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="ss_search.html">SlideShare - Search</a>
+                  </h3>
+                </li>
+                <li>
+                  <a href="professional_journey.html">
+                    <img src="img/portfolio/space.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="https://dribbble.com/shots/1845928-Music-Website-Design-Work-In-Progress">Space - Professional journey</a>
+                  </h3>
+                </li>
+                <li>
+                  <a href="professional_journey.html">
+                    <img src="img/portfolio/space.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="https://dribbble.com/shots/1845928-Music-Website-Design-Work-In-Progress">Space - Professional journey</a>
+                  </h3>
+                </li>
+                <li>
+                  <a href="professional_journey.html">
+                    <img src="img/portfolio/space.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="https://dribbble.com/shots/1845928-Music-Website-Design-Work-In-Progress">Space - Professional journey</a>
+                  </h3>
+                </li>
+                <li>
+                  <a href="professional_journey.html">
+                    <img src="img/portfolio/space.jpg" alt="Professional journey space template">
+                  </a>
+                  <h3>
+                    <a href="https://dribbble.com/shots/1845928-Music-Website-Design-Work-In-Progress">Space - Professional journey</a>
+                  </h3>
+                </li>
+              </div>
+            </ul><!--REFER TO THE js/drifolio.js-->
+        </div><!-- PORTFOLIO ITEMS END -->
+        
+        <!--Replace the URL below with your dribbble profile URL-->
+        
+    </div><!-- PORTFOLIO SECTION END -->
+
+    <!-- ===========================
+    TESTIMONIAL SECTION START
+    =========================== -->
+    <div id="testimonials" class="container">
+        <div class="sectionhead wow bounceInUp" data-wow-duration="2s">
+           <span class="bigicon icon-bubbles"></span>
+           <h3>I love to listen</h3>
+           <h4>What my peers have to say about me.</h4>
+           <hr class="separetor">            
+        </div><!-- TESTIMONIAL SECTIONHEAD END -->
+        
+        <!-- TESTIMONIAL ITEMS START -->
+        <div class="row">
+            <div class="row">
+            <!-- 1ST TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/wolf.jpg" alt="Wolfgang">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Anil designs solid UIs that are clear and up-to-date in their looks. As a graphical designer, he is very comfortable working closely with developers and other designers and has good leadership and management capabilities.</p>
+                    </blockquote>
+                    <h5>Wolfgang maehr</h5>
+                    <p>Manager, Opera Software</p>
+                </div>                
+            </div><!-- 1ST TESTIMONIAL ITEM END -->
+            
+            <!-- 2ND TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
+                <div class="clientsphoto">
+                    <img src="img/sagar.jpg" alt="Sagar Chandna">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Anil is a fantastic graphics designer, with many years of experience in designing for all types of platforms (desktops, mobiles, televisions etc.). His attention to detail and creative abilities really sets him apart from other designers. He is a very good team player and has the ability to motivate people.</p>                        
+                    </blockquote>
+                    <h5>Sagar Chandna</h5>
+                    <p>Director of Software Distribution at Opera Software</p>
+                </div>                
+            </div><!-- 2ND TESTIMONIAL ITEM END -->
+            
+            <!-- 3RD TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="3s">
+                <div class="clientsphoto">
+                    <img src="img/atul.jpg" alt="Atul Purohit">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Anil is one of the best designer + product management guy I have ever had the chance to work with. He has a keen eye for UX/UI design and a superb css/html guy to go to. He also has awesome information and graphic design skills. His constant participation in the latest design websites makes him most suitable to work on latest trends. 
+
+Top qualities: Ideas, Commitment, Positive Attitude</p>                        
+                    </blockquote>
+                    <h5>Atul Purohit</h5>
+                    <p>Sr. Software Engineer, LinkedIn</p>
+                </div>                
+            </div><!-- 3RD TESTIMONIAL ITEM END -->
+            
+            <!-- 4TH TESTIMONIAL ITEM -->
+            <div class="col-md-6 wow bounceIn" data-wow-duration="2s">
+                <div class="clientsphoto">
+                    <img src="img/pankaj.jpg" alt="Ramil">
+                </div>
+                
+                <div class="quote">
+                    <blockquote>
+                       <p>Anil Siwach is one of those rare managers who naturally serves as an inspiring mentor for the whole staff. He is a proactive and tireless contributor who would make a great addition to any team. He is detail-oriented and extremely personable; allowing those around him to have fun, feel at ease and themselves in his presence. He is a connector and a fearless adventurer who would thrive in the fast-paced environment. These qualities most notably translate in his ability to motivate a team to care about its project and be invested in the project’s success.</p>                        
+                    </blockquote>
+                    <h5>Pankaj</h5>
+                    <p>Team lead, Nvish Solutions</p>
+                </div>                
+            </div><!-- 4TH TESTIMONIAL ITEM END -->
+        </div>        
+    </div><!-- TESTIMONIAL SECTION END -->
+       
+    <!-- ===========================
+    FOOTER START
+    =========================== -->    
+    <footer>
+        <div class="container">
+            <span class="bigicon icon-speedometer "></span>
+             
+            <div class="footerlinks"><!-- FOOTER LINKS START -->            
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+
+                    <!--replace the email address below with your email address-->
+                    <li><a href="mailto:anilsiwach@gmail.com">Contact</a></li>                   
+                </ul>
+            </div><!-- FOOTER LINKS END -->
+             
+            <div class="copyright"><!-- FOOTER COPYRIGHT START -->
+                <p></p>
+            </div><!-- FOOTER COPYRIGHT END -->
+             
+            <div class="footersocial wow fadeInUp" data-wow-duration="3s"><!-- FOOTER SOCIAL ICONS START -->
+                <ul>
+                    <li><a href="http://facebook.com/anilsiwach.14"><span class="icon-social-facebook"></span></a></li>
+                    <li><a href="http://twitter.com/anilsiwach"><span class="icon-social-twitter"></span></a></li>
+                    <li><a href="#"><span class="icon-social-linkedin"></span></a></li>
+                 </ul>
+             </div><!-- FOOTER SOCIAL ICONS END -->
+         </div>
+     </footer><!-- FOOTER END -->
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    
+    <!--Other necessary scripts-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.jribbble-1.0.1.ugly.js"></script>
+    <script src="js/drifolio.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>    
   </body>
- </html>
+</html>
