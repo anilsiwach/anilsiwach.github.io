@@ -16,11 +16,11 @@ body {
 .bigicon {font-size: 3em;}
 h2{font-size: 42px;}
 h3{font-size: 28px;}
-h4{font-size: 18px; line-height: 1.4em;}
+h4{font-weight: 700; font-size: 18px; line-height: 1.4em;}
 
 p{
     letter-spacing: 1px;
-    color: #c3c3c3;
+    color: #838383;
     font-weight: lighter;
 }
 
@@ -30,7 +30,7 @@ DEFAULT STYLE & FORMATING
 ================================*/
 ul{padding: 0;}
 a{color: #ea9312}
-a:hover{color: #c3c3c3; text-decoration: none;}
+a:hover{color: #838383; text-decoration: none;}
 
 #services{text-align: center;}
 .col-md-4, .col-md-6{padding-bottom: 50px;}
@@ -95,6 +95,17 @@ HERO AREA
     width: 100%;
     max-width: 1200px;
 
+}
+
+/*================================
+space professional journey
+================================*/
+#space{
+    color: #fff;
+    text-align: center;
+    background: url(../img/space_bg.jpg)no-repeat; /*your background image*/
+    max-height: 880px;
+    overflow: hidden;
 }
 
 /*================================
@@ -217,7 +228,7 @@ blockquote p{
 }
 
 .quote{overflow: hidden}
-.quote h5{margin-bottom: 5px;}
+.quote h5{font-weight: 700; margin-bottom: 5px;}
 
 
 /*================================
@@ -228,6 +239,10 @@ footer{
     text-align: center;
     padding: 50px 0;
     background: #363942;
+}
+footer .bigicon img{
+    height: 60px;
+    opacity: .4;
 }
 
 footer p, footer .bigicon {color: #7e7e7e;}
