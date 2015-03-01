@@ -160,7 +160,7 @@ SlideShare onboarding
 #ssonboarding{
     color: #fff;
     text-align: center;
-    background: url(../img/onboarding_bg.jpg)no-repeat; /*your background image*/
+    background: url(../img/ss_onboarding_bg.jpg)no-repeat; /*your background image*/
     max-height: 880px;
     overflow: hidden;
 }
