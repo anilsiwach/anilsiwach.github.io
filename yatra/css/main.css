@@ -1,4 +1,4 @@
-*{margin: 0;padding: 0;font-family:'Helvetica Neue', sans-serif; font-size: 13px; color: #B1B5BA; box-sizing: border-box; font-weight:normal; letter-spacing: .7px; -webkit-font-smoothing: antialiased;
+*{margin: 0;padding: 0;font-family:'Helvetica Neue','Lato', sans-serif; font-size: 13px; color: #B1B5BA; box-sizing: border-box; font-weight:400; letter-spacing: .7px; -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;}
 body,html{ background: #F4F6F8; overflow-x: hidden;}
 
@@ -6,6 +6,18 @@ h1, h2, h3, h4, h5, h6 {
     color: #222;
     font-weight: 600;
     line-height: 1.3;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color:#62676D; font-weight: 400;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #62676D; font-weight: 400;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #62676D; font-weight: 400;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #62676D; font-weight: 400;
 }
 
 @font-face {
@@ -87,31 +99,36 @@ header{ width: 100%; z-index:99999; position: relative; float: left; padding:0 2
 .sticky ul.header_nav li.drop_down ul{ box-shadow: 0 0 8px rgba(0,0,0,.1);}
 .sticky #logo{background: url(../images/yatra_new_logo_color.svg) center no-repeat; background-size:100px 35.5px;}
 #logo{ height: 36px; margin: 10px 0; width: 102px; float: left;background: url(../images/yatra_new_logo.svg) center no-repeat; background-size:100px 35.5px;}
+.sticky #new_logo{background: url(../images/yatra_new_logo_colored.svg) center no-repeat;}
+#new_logo{ height: 37px; margin: 10px 0; width: 102px; float: left; background-size:100px 35.5px; background: url(../images/yatra_new_logo1.svg) center no-repeat;}
 nav{ float: right; padding: 0;}
 nav .catgory{ display: block; padding: 10px 0;}
 ul.header_nav{ display: block; float:right;}
 ul.header_nav li.drop_down{ list-style: none;float: left; position: relative;line-height: 56px; padding: 0 15px; color: #fff;}
 ul.header_nav li.drop_down:last-child{ padding: 0 0 0 20px;}
-ul.header_nav li.drop_down a{ color: #fff; font-size: 13px;}
+ul.header_nav li.drop_down:hover a{ color: #fff;}
+ul.header_nav li.drop_down a{ color:rgba(255,255,255,.7); font-size: 13px;}
 ul.header_nav li.drop_down a em{ position: absolute; top: 20px; display: none;right: 30px; width:7px; height:7px; border-radius: 50%; background: #E56868;}
 ul.header_nav li.drop_down a.after:after{ float: right; content: ""; border-top: 4px solid #fff; border-left: 4px solid transparent; border-right: 4px solid transparent; margin:27px 0 0 5px;}
 ul.header_nav li.drop_down ul:before{float: right; content: ""; border-bottom: 5px solid #fff; border-left: 5px solid transparent; border-right: 5px solid transparent; margin:-10px 0 0 5px;}
-ul.header_nav li.drop_down ul{ opacity: 0; position: absolute; right: 0; margin-top:35px; background: #fff; border-radius: 3px; box-shadow: 0 2px 4px rgba(0,0,0,.2); padding:5px 15px; width: 230px; transition: all ease .5s; pointer-events:none;}
+ul.header_nav li.drop_down ul{ opacity: 0; position: absolute; right: 0; margin-top:-35px; background: #fff; border-radius: 3px; box-shadow: 0 2px 4px rgba(0,0,0,.2); padding:5px 15px; width: 230px; transition: all ease .5s; pointer-events:none;}
 ul.header_nav li.drop_down:hover ul{ opacity: 1; margin-top:-5px; pointer-events:auto;}
-ul.header_nav li.drop_down ul li{ list-style: none; border-bottom: 1px solid #DEE2E6;}
+ul.header_nav li.drop_down ul li{ list-style: none; position: relative;border-bottom: 1px solid #DEE2E6;}
 ul.header_nav li.drop_down ul li:last-child{border: none;}
 ul.header_nav li.drop_down ul li a{ color: #404A56; font-weight: 400; line-height:50px; display: block;font-size: 13px; transition: all ease .5s;}
-ul.header_nav li.drop_down ul li a:hover{ color: #404A56; font-size: 13px; font-weight: 500; padding-left: 10px; transition: all ease .5s;}
+ul.header_nav li.drop_down:hover ul li a{ color: #404A56;}
+ul.header_nav li.drop_down ul li a:hover{ color: #404A56; font-size: 13px; padding-left: 10px; transition: all ease .5s;}
 ul.header_nav li.drop_down ul li a:hover:after{display: none;}
 ul.header_nav li.drop_down ul.recent_search{ width: 400px;}
 ul.recent_search li{ padding: 15px 0; float: left; width: 100%;}
 .flight_rece{ float: left; position: relative;width: 60%; padding-left: 30px;}
 .flight_rece{ font-size: 14px; color:#404A56; line-height:18px; text-align: left;}
 .flight_rece i{ font-size: 10px; width: 16px; padding: 0 2px; text-align: center;}
-.flight_rece .icon-flight{ font-weight: 300; font-size: 20px; position: absolute; color: #404A56; left: 0; top: 0; width:15px; height: 40px;}
+.flight_rece .icon-flight{ font-weight:400; font-size: 20px; position: absolute; color: #404A56; left: 0; top: 0; width:15px; height: 40px;}
 .flight_rece span{ display:block; clear: both; font-size: 13px;}
 .price_rece{ float: right; height:35px; font-size: 15px; line-height: 35px; border-radius: 3px; color:#404A56; font-weight: 500; padding: 0 15px; background: #fff;  transition: all ease .5s; cursor: pointer;}
- ul.recent_search li:hover .price_rece{ background: #4990E2; color: #fff; transition: all ease .5s;}
+ul.recent_search li .search{ opacity: 0; position: absolute; top: 0; right: 0; height: 35px; border-radius: 3px; width:80px; text-align: center; top: 15px; line-height: 35px; background: #fff; cursor: pointer; font-size: 14px; font-weight: 500;}
+ ul.recent_search li:hover .search{ opacity: 1; background: #4990E2; color: #fff; transition: all ease .5s;}
 
 
 .menu_for_mobile{ display: none;position: fixed; top: 0; left:0; width: 100%; background:rgba(0,0,0,.7); height: 100%; overflow: hidden;}
@@ -140,7 +157,7 @@ ul.recent_search li{ padding: 15px 0; float: left; width: 100%;}
 /* Booking Engine css start */
 .booking_engine{ max-width: 830px; width: 95%; height: 100px; clear: both; position: absolute; top: 0; left: 0; right: 0; bottom:67px; margin:auto;}
 ul.booking_lobs{ float: left; clear: both; width: 100%;}
-ul.booking_lobs li{ float: left; line-height: 30px; margin: 0 25px 0 0; color: #fff; font-size: 12px; text-transform: uppercase;font-weight: 400; cursor: pointer;list-style: none;}
+ul.booking_lobs li{ float: left; line-height: 30px; margin: 0 25px 0 0; color: #fff; font-size: 12px; text-transform: uppercase;font-weight:400; cursor: pointer;list-style: none;}
 ul.booking_lobs li:after{ content: " "; float: left; clear: both;margin: 0; border-bottom: 3px solid #FFAB1F;  width:0px; transition: all ease .2s;}
 ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .search_inputs{ float: left; min-height: 65px; clear: both; width: 100%; padding: 10px; border-radius: 3px; background: rgba(0,0,0,.5)}
@@ -198,10 +215,10 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .ofr_cmn .bx-wrapper .bx-viewport{ padding: 0;}
 .pstn_rlt div.ofr_cmn:first-child{ display: block; opacity: 1; z-index: 2;}
 .booking_offers ul li .offer_div{ cursor: auto; width: 100%; position: relative; float: left; padding:20px 20px 20px 10px;}
-.booking_offers ul li .offer_div:before{ content:""; position: absolute; top:0; left: 0; width: 100%; height: 3px; background:rgba(158,56,2,.8); transition: all .3s ease;}
+.booking_offers ul li .offer_div:before{ content:""; position: absolute; top:0; left: 0; width: 100%; height: 3px; background:rgba(158,56,2,.8); transition: all .3s ease; z-index: -1;}
 .booking_offers ul li:nth-child(odd) .offer_div:before{ background:rgba(44,93,125,.8)}
 .booking_offers ul li:hover .offer_div:before{ height: 100%; transition: all .3s ease;}
-.booking_offers ul li p{ position: relative;font-size: 20px; color: #E4E8EE; font-weight: 300;}
+.booking_offers ul li p{ position: relative;font-size: 20px; color: #E4E8EE; font-weight: 400;}
 .booking_offers ul li p em{font-size: 20px; color: #FFAB1F; font-style: normal;}
 .booking_offers ul li span{ position: relative; display: block; clear: both; line-height: 18px; padding:5px 0; font-size: 13px; color: #E4E8EE;}
 .booking_offers ul li span i{ display: block; clear: both; font-size: 10px; color: #AAAFB6; text-transform: uppercase;}
@@ -221,7 +238,7 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .super_saver h1 a:hover{ color: #fff;transition: all ease .5s;}
 .super_saver h1 a:hover:after{ width:80px}
 .super_saver .slide{ padding: 0 10px 15px; width:372px !important;}
-.super_left,.super_right{  text-align: left;float: left; width:60%; padding:5px 10px 0 10px; font-size: 15px; line-height: 20px; color:#585E66; font-weight: 300; }
+.super_left,.super_right{  text-align: left;float: left; width:60%; padding:5px 10px 0 10px; font-size: 15px; line-height: 20px; color:#585E66; font-weight: 400; }
 .super_left span,.super_right span{ font-size: 11px; color: #A9ACB1; display: block; clear: both;}
 .super_right{ float: right; text-align: right; font-weight: 600; width: 40%; color: #394047; padding:5px 10px 0 10px;}
 .next{ width:30px; margin:0 5px; float: right;height: 30px; background: #E8ECF0 url(../images/nav_right_arrow.svg) center no-repeat; border-radius: 3px;}
@@ -255,7 +272,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* travel with budget css Start */
 .tarve_budget{ display: block; float: left; width: 100%; clear: both; padding: 20px 0 0; margin: 20px 0 0}
 .tarve_budget h3{ display: block; font-weight:400; font-size: 20px; color: #38404A; line-height:25px; padding: 0 0 20px;}
-.tarve_budget h3 span{ display: block; clear: both; font-size: 15px; color: #38404A; font-weight: 300;}
+.tarve_budget h3 span{ display: block; clear: both; font-size: 15px; color: #38404A; font-weight: 400;}
 .budgets ul.fixeds{ padding: 0; position: absolute; box-shadow: 0 0 5px rgba(0,0,0,.3); background: #fff; top: 0; left: 0; width: 100%;}
 .budgets ul.fixeds li{ padding: 0; border:none;}
 .budgets ul.fixeds li div:last-child{ min-width:90px; padding:8px 10px; border-radius: 0;}
@@ -295,7 +312,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 /* travel talk css Start */
 .travel_talk{ float: left; width: 100%; clear: both; margin: 20px 0; padding: 20px 0;}
 .travel_talk h2{ display: block; padding: 0 15px; font-size: 20px; font-weight:400; color: #38404A; line-height:25px; padding: 0 15px 10px;}
-.travel_talk h2 span{ display: block; clear: both; font-size: 15px; color: #38404A; font-weight: 300;}
+.travel_talk h2 span{ display: block; clear: both; font-size: 15px; color: #38404A; font-weight: 400;}
 .travel_talk_artile{ float: left; position: relative;width: 100%; height: 450px; border-radius: 3px; overflow: hidden;}
 .travel_talk ul{ margin: 10px 0 30px;}
 .travel_talk ul li{ margin: 0 0 20px;}
@@ -322,7 +339,7 @@ ul.footer_menus{ float: left; width: 100%; clear: both; padding: 20px 0;}
 ul.footer_menus li a{ display: block; clear: both; font-size: 11px; line-height:22px; color: #9399A1;transition: all ease .5s;}
 ul.footer_menus li a:hover,.open_data ul li a:hover{transition: all ease .5s; text-decoration: underline; color: #797F87;}
 .footer_menu_header{ display: block; clear: both; font-size: 13px; padding: 0 0 5px; line-height: 25px; color: #394047;}
-.copyright{ display: block; clear: both; padding: 10px 0; text-align: center; font-size: 11px; font-style: italic; color: #B8BDC4;}
+.copyright{ display: block; clear: both; padding: 10px 0; text-align: center; font-size: 11px; font-style: italic; color: #81868D;}
 .security{ float: left; padding: 10px 15px;}
 .payment{ float: right; padding: 19px 15px;}
 .footer_top_menus{float: left; width: 100%; padding: 15px; clear: both;}
@@ -339,7 +356,7 @@ ul.footer_menus li a:hover,.open_data ul li a:hover{transition: all ease .5s; te
 .open_data ul li a{ line-height: 20px; color: #9399A1; font-size: 11px;transition: all ease .5s;}
 .footer_for_mobile{ float: left; display: none;width: 100%; clear: both;}
 .footer_mobile_links{ display: block; clear: both; font-size: 11px; text-align: center; line-height: 25px; padding:5px 0;}
-.footer_mobile_links a{ line-height: 25px; color: #9399A1; font-size: 11px; padding: 0 5px;}
+.footer_mobile_links a{ line-height: 25px; color: #81868D; font-size: 11px; padding: 0 5px;}
 .foote_for_desktop{ display: block; float: left; width: 100%; clear: both;}
 
 

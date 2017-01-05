@@ -1,3 +1,17 @@
+@media screen 
+  and (max-width: 1024px) {
+      
+      /* footer css start */
+      .foote_for_desktop{ display:none;}
+      .footer_for_mobile{ display: block;}
+      ul.footer_menus li{ min-width: 169px;}
+      .footer_top_menus li{ padding: 5px 20px 5px 0; margin-right: 5px;}
+      .footer_top_menus li:last-child{ padding-right:10px; margin: 0;}
+      .ul_3 li{ float: left; width:35%; padding: 0 15px;}
+      .ul_4 li{ float: left; width:30%; padding: 0 15px;}
+      .booking_engine .over_hidden{ height: 33px;}
+      .budget_options input, .budget_options select{ width: 115px;}
+}
 
 @media only screen 
   and (max-device-width:1024px)
@@ -14,20 +28,6 @@
       .ul_4 li{ float: left; width:30%; padding: 0 15px;}
         .booking_engine .over_hidden{ height: 33px;}
       .budget_options input, .budget_options select{ width: 119px;}
-}
-@media only screen 
-  and (max-device-width:1024px) {
-
-      /* footer css start */
-      .foote_for_desktop{ display:none;}
-      .footer_for_mobile{ display: block;}
-      ul.footer_menus li{ min-width: 169px;}
-      .footer_top_menus li{ padding: 5px 20px 5px 0; margin-right: 5px;}
-      .footer_top_menus li:last-child{ padding-right:10px; margin: 0;}
-      .ul_3 li{ float: left; width:35%; padding: 0 15px;}
-      .ul_4 li{ float: left; width:30%; padding: 0 15px;}
-        .booking_engine .over_hidden{ height: 33px;}
-      
 }
 @media only screen 
   and (max-device-width:768px)
@@ -103,7 +103,7 @@
         .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
         .no_traveller:before{ display: none;}
         .close_class_type{ position: absolute; top: 10px; right: 0;}
-        ul.booking_lobs{ min-width:655px;}
+        ul.booking_lobs{ min-width:675px;}
         .booking_engine .over_hidden{ height: 33px;}
         ul.booking_lobs li{ margin-right: 16px;}
 
@@ -165,7 +165,7 @@
         .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
         .no_traveller:before{ display: none;}
         .close_class_type{ position: absolute; top: 10px; right: 0;}
-        ul.booking_lobs{ min-width:655px;}
+        ul.booking_lobs{ min-width:675px;}
         .booking_engine .over_hidden{ height: 33px;}
         ul.booking_lobs li{ margin-right: 22px;}
 
@@ -229,7 +229,7 @@
         .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
         .no_traveller:before{ display: none;}
         .close_class_type{ position: absolute; top: 10px; right: 0;}
-        ul.booking_lobs{ min-width:655px;}
+        ul.booking_lobs{ min-width:675px;}
         .booking_engine .over_hidden{ height: 33px;}
         ul.booking_lobs li{ margin-right: 22px;}
 
@@ -294,7 +294,7 @@
         .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
         .no_traveller:before{ display: none;}
         .close_class_type{ position: absolute; top: 10px; right: 0;}
-        ul.booking_lobs{ min-width:655px;}
+        ul.booking_lobs{ min-width:675px;}
         .booking_engine .over_hidden{ height: 33px;}
         ul.booking_lobs li{ margin-right: 16px;}
 
