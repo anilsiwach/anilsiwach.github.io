@@ -108,7 +108,7 @@
         ul.booking_lobs li{ margin-right: 16px;}
 
         .icon-menu{ display: block;}
-        #logo{ margin:10px auto; display: inherit; float: none;}
+        #logo,#new_logo{ margin:10px auto; display: inherit; float: none;}
         
 }
 @media only screen  
@@ -170,7 +170,7 @@
         ul.booking_lobs li{ margin-right: 22px;}
 
         .icon-menu{ display: block;}
-        #logo{ margin:10px auto; display: inherit; float: none;}
+        #logo,#new_logo{ margin:10px auto; display: inherit; float: none;}
 }
 
 @media only screen 
@@ -234,7 +234,7 @@
         ul.booking_lobs li{ margin-right: 22px;}
 
         .icon-menu{ display: block;}
-        #logo{ margin:10px auto; display: inherit; float: none;}
+        #logo,#new_logo{ margin:10px auto; display: inherit; float: none;}
       
 }
 
@@ -299,7 +299,7 @@
         ul.booking_lobs li{ margin-right: 16px;}
 
         .icon-menu{ display: block;}
-        #logo{ margin:10px auto; display: inherit; float: none;}
+        #logo,#new_logo{ margin:10px auto; display: inherit; float: none;}
 }
 
 @media only screen 
