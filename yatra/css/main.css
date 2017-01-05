@@ -101,7 +101,7 @@ ul.header_nav li.drop_down:hover ul{ opacity: 1; margin-top:-5px; pointer-events
 ul.header_nav li.drop_down ul li{ list-style: none; border-bottom: 1px solid #DEE2E6;}
 ul.header_nav li.drop_down ul li:last-child{border: none;}
 ul.header_nav li.drop_down ul li a{ color: #404A56; font-weight: 400; line-height:50px; display: block;font-size: 13px; transition: all ease .5s;}
-ul.header_nav li.drop_down ul li a:hover{ color: #404A56; font-size: 13px; padding-left: 10px; transition: all ease .5s;}
+ul.header_nav li.drop_down ul li a:hover{ color: #404A56; font-size: 13px; font-weight: 500; padding-left: 10px; transition: all ease .5s;}
 ul.header_nav li.drop_down ul li a:hover:after{display: none;}
 ul.header_nav li.drop_down ul.recent_search{ width: 400px;}
 ul.recent_search li{ padding: 15px 0; float: left; width: 100%;}
