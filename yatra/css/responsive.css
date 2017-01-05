@@ -1,0 +1,308 @@
+
+@media only screen 
+  and (max-device-width:1024px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      
+      /* footer css start */
+      .foote_for_desktop{ display:none;}
+      .footer_for_mobile{ display: block;}
+      ul.footer_menus li{ min-width: 169px;}
+      .footer_top_menus li{ padding: 5px 20px 5px 0; margin-right: 5px;}
+      .footer_top_menus li:last-child{ padding-right:10px; margin: 0;}
+      .ul_3 li{ float: left; width:35%; padding: 0 15px;}
+      .ul_4 li{ float: left; width:30%; padding: 0 15px;}
+        .booking_engine .over_hidden{ height: 33px;}
+      .budget_options input, .budget_options select{ width: 119px;}
+}
+@media only screen 
+  and (max-device-width:1024px) {
+
+      /* footer css start */
+      .foote_for_desktop{ display:none;}
+      .footer_for_mobile{ display: block;}
+      ul.footer_menus li{ min-width: 169px;}
+      .footer_top_menus li{ padding: 5px 20px 5px 0; margin-right: 5px;}
+      .footer_top_menus li:last-child{ padding-right:10px; margin: 0;}
+      .ul_3 li{ float: left; width:35%; padding: 0 15px;}
+      .ul_4 li{ float: left; width:30%; padding: 0 15px;}
+        .booking_engine .over_hidden{ height: 33px;}
+      
+}
+@media only screen 
+  and (max-device-width:768px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+      .ul_3 li{ float: left; width:45%; padding: 0 15px;}
+      .ul_4 li{ float: left; width:40%; padding: 0 15px;}
+      .search_items input, .search_items select, .search_items .inputs, .search_items .seats{ width: 155px;}
+      .search_items button{ width: 90px;}
+      .search_items input.city_w{ width: 310px;}
+      .search_items input.city_wn, .search_items select.city_wn{ width: 230px;}
+      .search_items input.activities_w{ width: 620px;}
+      .search_inputs{ min-height: 90px !important;}
+      .ul_2 li{ width: 100%;}
+      .ul_2 li:first-child{ margin-bottom: 20px;}
+      .budgets li:first-child{ margin: 0;}
+}
+
+@media only screen 
+  and (max-device-width:765px) {
+      .tarve_budget{ display: none;}
+}
+
+@media only screen  
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+        
+      .ul_3 li{ float: left; width:70%; padding: 0 5px;}
+      .ul_4 li{ float: left; width:48%; padding: 0 5px;}
+        .perfect_holidays ul,.travel_talk ul,.super_saver .ul_3{ margin-left: 10px;}
+        .travel_talk_artile{ height: 380px;}
+        .article_title p{ font-size: 14px; line-height: 22px; min-height: 90px;}
+        .article_title{ padding: 20px 15px;}
+        
+        .perfect_holidays ul li .holiday_div{ height: 300px;}
+        .location_prtice{ font-size: 14px; line-height:25px;}
+        .location_prtice span,.article_title a{ font-size: 13px;}
+        .holidays_offer{ height: 30px; line-height: 30px; width: 110px; font-size: 12px;}
+        .travel_talk .over_hidden{ height: 405px;}
+        .perfect_holidays .over_hidden{ height: 315px;}
+        
+        .without_slide .slide{ padding: 0 0 5px;}
+        .without_slide .slide .thumbnail{ height: 130px; margin: 0;}
+        .without_slide .slide .thumbnail img{ height: 100%;}
+        .super_saver .over_hidden{ height: 200px;}
+        .perfect_holidays h2,.super_saver h1,.travel_talk h2{ font-size: 18px; line-height: 30px;}
+        .super_saver h1 a{ margin: 1px 0;}
+        .travel_talk h2{ line-height: 20px;}
+        .travel_talk h2 span{ font-size: 14px;}
+        .travel_talk ul{ margin: 0 0 10px 10px;}
+        .perfect_holidays,.super_saver{ padding: 20px 0;}
+        .travel_talk{ padding: 10px 0 0;}
+        
+        .ofr_cmn .bx-wrapper{ margin: 0; padding: 0 15px;}
+        .ofr_cmn .bx-controls-direction{ display:none;}
+        
+        
+        
+        nav{ display: none;}
+        .search_inputs{ background: none;padding: 0;}
+        .search_inputs .commondiv{ background: rgba(0,0,0,.5); padding: 10px; border-radius: 3px;}
+        .search_items{ background: none;}
+        .search_items input, .search_items select, .search_items .inputs, .search_items .seats,.search_items input.city_w,.search_items input.city_wn, .search_items select.city_wn,.search_items input.activities_w{ width: 100%; border: none; margin: 0 0 15px; height: 45px; border-radius: 3px; padding: 10px;}
+        .search_items .inputs,.search_items .seats{ line-height: 26px;}
+        .booking_engine{ height:380px; width: 91%;}
+        .search_items div{ float: left; clear: both; width: 100%;}
+        .search_items i{ top: 15px; right: 10px;}
+        .search_items button{ width: 100%; clear: both; border-radius: 3px;}
+        .search_items .inputs:before{ margin: 11px 5px 0;}
+        .search_items .seats p button, .no_traveller ul.seat li p button{ clear: none;}
+        .search_items .seats p, .no_traveller ul.seat li p{ margin-top: -2px;}
+        
+        .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
+        .no_traveller:before{ display: none;}
+        .close_class_type{ position: absolute; top: 10px; right: 0;}
+        ul.booking_lobs{ min-width:655px;}
+        .booking_engine .over_hidden{ height: 33px;}
+        ul.booking_lobs li{ margin-right: 16px;}
+
+        .icon-menu{ display: block;}
+        #logo{ margin:10px auto; display: inherit; float: none;}
+        
+}
+@media only screen  
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 3) {
+        
+      .ul_3 li{ float: left; width:70%; padding: 0 5px;}
+      .ul_4 li{ float: left; width:48%; padding: 0 5px;}
+        .perfect_holidays ul,.travel_talk ul,.super_saver .ul_3{ margin-left: 10px;}
+        .travel_talk_artile{ height: 380px;}
+        .article_title p{ font-size: 14px; line-height: 22px; min-height: 90px;}
+        .article_title{ padding: 20px 15px;}
+        
+        .perfect_holidays ul li .holiday_div{ height: 300px;}
+        .location_prtice{ font-size: 14px; line-height:25px;}
+        .location_prtice span,.article_title a{ font-size: 13px;}
+        .holidays_offer{ height: 30px; line-height: 30px; width: 110px; font-size: 12px;}
+        .travel_talk .over_hidden{ height: 405px;}
+        .perfect_holidays .over_hidden{ height: 315px;}
+        
+        .without_slide .slide{ padding: 0 0 5px;}
+        .without_slide .slide .thumbnail{ height: 130px; margin: 0;}
+        .without_slide .slide .thumbnail img{ height: 100%;}
+        .super_saver .over_hidden{ height: 200px;}
+        .perfect_holidays h2,.super_saver h1,.travel_talk h2{ font-size: 18px; line-height: 30px;}
+        .super_saver h1 a{ margin: 1px 0;}
+        .travel_talk h2{ line-height: 20px;}
+        .travel_talk h2 span{ font-size: 14px;}
+        .travel_talk ul{ margin: 0 0 10px 10px;}
+        .perfect_holidays,.super_saver{ padding: 20px 0;}
+        .travel_talk{ padding: 10px 0 0;}
+        
+        
+        .ofr_cmn .bx-wrapper{ margin: 0; padding: 0 15px;}
+        .ofr_cmn .bx-controls-direction{ display:none;}
+        
+        
+        
+        nav{ display: none;}
+        .search_inputs{ background: none;padding: 0;}
+        .search_inputs .commondiv{ background: rgba(0,0,0,.5); padding: 10px; border-radius: 3px;}
+        .search_items{ background: none;}
+        .search_items input, .search_items select, .search_items .inputs, .search_items .seats,.search_items input.city_w,.search_items input.city_wn, .search_items select.city_wn,.search_items input.activities_w{ width: 100%; border: none; margin: 0 0 15px; height: 45px; border-radius: 3px; padding: 10px;}
+        .search_items .inputs,.search_items .seats{ line-height: 26px;}
+        .booking_engine{ height:380px; width: 91%;}
+        .search_items div{ float: left; clear: both; width: 100%;}
+        .search_items i{ top: 15px; right: 10px;}
+        .search_items button{ width: 100%; clear: both; border-radius: 3px;}
+        .search_items .inputs:before{ margin: 11px 5px 0;}
+        .search_items .seats p button, .no_traveller ul.seat li p button{ clear: none;}
+        .search_items .seats p, .no_traveller ul.seat li p{ margin-top: -2px;}
+        
+        
+        .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
+        .no_traveller:before{ display: none;}
+        .close_class_type{ position: absolute; top: 10px; right: 0;}
+        ul.booking_lobs{ min-width:655px;}
+        .booking_engine .over_hidden{ height: 33px;}
+        ul.booking_lobs li{ margin-right: 22px;}
+
+        .icon-menu{ display: block;}
+        #logo{ margin:10px auto; display: inherit; float: none;}
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+      .ul_3 li{ float: left; width:40%; padding: 0 5px;}
+      .ul_4 li{ float: left; width:40%; padding: 0 5px;}
+        .perfect_holidays ul,.travel_talk ul,.super_saver .ul_3{ margin-left: 10px;}
+        .travel_talk_artile{ height: 320px;}
+        .article_title p{ font-size: 14px; line-height: 22px; min-height: 90px;}
+        .article_title{ padding: 20px 15px;}
+        
+        .perfect_holidays ul li .holiday_div{ height: 300px;}
+        .location_prtice{ font-size: 14px; line-height:25px;}
+        .location_prtice span,.article_title a{ font-size: 13px;}
+        .holidays_offer{ height: 30px; line-height: 30px; width: 110px; font-size: 12px;}
+        .travel_talk .over_hidden{ height:335px;}
+        .perfect_holidays .over_hidden{ height: 315px;}
+        
+        .without_slide .slide{ padding: 0 0 5px;}
+        .without_slide .slide .thumbnail{ height: 130px; margin: 0;}
+        .without_slide .slide .thumbnail img{ height: 100%;}
+        .super_saver .over_hidden{ height: 200px;}
+        .perfect_holidays h2,.super_saver h1,.travel_talk h2{ font-size: 18px; line-height: 30px;}
+        .super_saver h1 a{ margin: 1px 0;}
+        .travel_talk h2{ line-height: 20px;}
+        .travel_talk h2 span{ font-size: 14px;}
+        .travel_talk ul{ margin: 0 0 10px 10px;}
+        .perfect_holidays,.super_saver{ padding: 20px 0;}
+        .travel_talk{ padding: 10px 0 0;}
+        
+        
+        .ofr_cmn .bx-wrapper{ margin: 0; padding: 0 15px;}
+        .ofr_cmn .bx-controls-direction{ display:none;}
+        
+        
+        
+        nav{ display: none;}
+        .search_inputs{ background: none;padding: 0;}
+        .search_inputs .commondiv{ background: rgba(0,0,0,.5); padding: 10px; border-radius: 3px;}
+        .search_items{ background: none;}
+        .search_items input, .search_items select, .search_items .inputs, .search_items .seats,.search_items input.city_w,.search_items input.city_wn, .search_items select.city_wn,.search_items input.activities_w{ width: 100%; border: none; margin: 0 0 15px; height: 45px; border-radius: 3px; padding: 10px;}
+        .search_items .inputs,.search_items .seats{ line-height: 26px;}
+        .booking_engine{ height:380px; width: 91%;}
+        .search_items div{ float: left; clear: both; width: 100%;}
+        .search_items i{ top: 15px; right: 10px;}
+        .search_items button{ width: 100%; clear: both; border-radius: 3px;}
+        .search_items .inputs:before{ margin: 11px 5px 0;}
+        .search_items .seats p button, .no_traveller ul.seat li p button{ clear: none;}
+        .search_items .seats p, .no_traveller ul.seat li p{ margin-top: -2px;}
+        
+        
+        .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
+        .no_traveller:before{ display: none;}
+        .close_class_type{ position: absolute; top: 10px; right: 0;}
+        ul.booking_lobs{ min-width:655px;}
+        .booking_engine .over_hidden{ height: 33px;}
+        ul.booking_lobs li{ margin-right: 22px;}
+
+        .icon-menu{ display: block;}
+        #logo{ margin:10px auto; display: inherit; float: none;}
+      
+}
+
+@media only screen  
+    and (max-device-width: 360px)
+    and (-webkit-min-device-pixel-ratio: 1) {
+        
+      .ul_3 li{ float: left; width:70%; padding: 0 5px;}
+      .ul_4 li{ float: left; width:70%; padding: 0 5px;}
+        .perfect_holidays ul,.travel_talk ul,.super_saver .ul_3{ margin-left: 10px;}
+        .travel_talk_artile{ height: 330px;}
+        .article_title p{ font-size: 14px; line-height: 22px; min-height: 90px;}
+        .article_title{ padding: 20px 15px;}
+        
+        .perfect_holidays ul li .holiday_div{ height: 270px;}
+        .location_prtice{ font-size: 14px; line-height:25px;}
+        .location_prtice span,.article_title a{ font-size: 13px;}
+        .holidays_offer{ height: 30px; line-height: 30px; width: 110px; font-size: 12px;}
+        .travel_talk .over_hidden{ height: 355px;}
+        .perfect_holidays .over_hidden{ height:285px;}
+        
+        .without_slide .slide{ padding: 0 0 5px;}
+        .without_slide .slide .thumbnail{ height: 110px; margin: 0;}
+        .without_slide .slide .thumbnail img{ height: 100%;}
+        .super_saver .over_hidden{ height:170px;}
+        .perfect_holidays h2,.super_saver h1,.travel_talk h2{ font-size: 18px; line-height: 30px;}
+        .super_saver h1 a{ margin: 1px 0;}
+        .travel_talk h2{ line-height: 20px;}
+        .travel_talk h2 span{ font-size: 14px;}
+        .travel_talk ul{ margin: 0 0 10px 10px;}
+        .perfect_holidays,.super_saver{ padding: 20px 0;}
+        .travel_talk{ padding: 10px 0 0;}
+        .super_left, .super_right{ font-size: 13px;}
+        
+        
+        .ofr_cmn .bx-wrapper{ margin: 0; padding: 0 15px;}
+        .ofr_cmn .bx-controls-direction{ display:none;}
+        
+        
+        
+        
+        nav{ display: none;}
+        .search_inputs{ background: none;padding: 0;}
+        .search_inputs .commondiv{ background: rgba(0,0,0,.5); padding: 10px; border-radius: 3px;}
+        .search_items{ background: none;}
+        .search_items input, .search_items select, .search_items .inputs, .search_items .seats,.search_items input.city_w,.search_items input.city_wn, .search_items select.city_wn,.search_items input.activities_w{ width: 100%; border: none; margin: 0 0 15px; height: 45px; border-radius: 3px; padding: 10px;}
+        .search_items .inputs,.search_items .seats{ line-height: 26px;}
+        .booking_engine{ height:380px; width: 91%;}
+        .search_items div{ float: left; clear: both; width: 100%;}
+        .search_items i{ top: 15px; right: 10px;}
+        .search_items button{ width: 100%; clear: both; border-radius: 3px;}
+        .search_items .inputs:before{ margin: 11px 5px 0;}
+        .search_items .seats p button, .no_traveller ul.seat li p button{ clear: none;}
+        .search_items .seats p, .no_traveller ul.seat li p{ margin-top: -2px;}
+        
+        
+        .no_traveller{ position: fixed; bottom: 0; left: 0; width: 100%; box-shadow: 0 0 10px rgba(0,0,0,.3); border-radius: 0; height: 350px; top: auto; right: auto; padding-top: 30px;}
+        .no_traveller:before{ display: none;}
+        .close_class_type{ position: absolute; top: 10px; right: 0;}
+        ul.booking_lobs{ min-width:655px;}
+        .booking_engine .over_hidden{ height: 33px;}
+        ul.booking_lobs li{ margin-right: 16px;}
+
+        .icon-menu{ display: block;}
+        #logo{ margin:10px auto; display: inherit; float: none;}
+}
+
+@media only screen 
+  and (max-device-width:480px) {
+      .copyright{ font-size: 10px;}
+}
