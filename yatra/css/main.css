@@ -85,7 +85,7 @@ header{ width: 100%; z-index:99999; position: relative; float: left; padding:0 2
 .sticky ul.header_nav li.drop_down a{ color: #62656A;}
 .sticky ul.header_nav li.drop_down a.after:after{ border-top:4px solid #62656A;}
 .sticky ul.header_nav li.drop_down ul{ box-shadow: 0 0 8px rgba(0,0,0,.1);}
-.sticky #logo{background: url(../images/yatra_new_logo_color.svg) center no-repeat; background-size:100px 35.5px;}
+.sticky #logo{background: url(../images/yatra_new_Logo_color.svg) center no-repeat; background-size:100px 35.5px;}
 #logo{ height: 36px; margin: 10px 0; width: 102px; float: left;background: url(../images/yatra_new_logo.svg) center no-repeat; background-size:100px 35.5px;}
 nav{ float: right; padding: 0;}
 nav .catgory{ display: block; padding: 10px 0;}
