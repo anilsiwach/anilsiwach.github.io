@@ -300,6 +300,12 @@
 
         .icon-menu{ display: block;}
         #logo,#new_logo{ margin:10px auto; display: inherit; float: none;}
+        .explor_wrld .offer_div{ background: none;}
+}
+
+@media only screen 
+  and (max-device-width:320px) {
+      .trip_facility{ margin-top: 10px;}
 }
 
 @media only screen 
