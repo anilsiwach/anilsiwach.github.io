@@ -140,7 +140,7 @@ ul.recent_search li{ padding: 15px 0; float: left; width: 100%;}
 /* Booking Engine css start */
 .booking_engine{ max-width: 830px; width: 95%; height: 100px; clear: both; position: absolute; top: 0; left: 0; right: 0; bottom:67px; margin:auto;}
 ul.booking_lobs{ float: left; clear: both; width: 100%;}
-ul.booking_lobs li{ float: left; line-height: 30px; margin: 0 25px 0 0; color: #fff; font-size: 11.5px; text-transform: uppercase;font-weight: 300; cursor: pointer;list-style: none;}
+ul.booking_lobs li{ float: left; line-height: 30px; margin: 0 25px 0 0; color: #fff; font-size: 12px; text-transform: uppercase;font-weight: 400; cursor: pointer;list-style: none;}
 ul.booking_lobs li:after{ content: " "; float: left; clear: both;margin: 0; border-bottom: 3px solid #FFAB1F;  width:0px; transition: all ease .2s;}
 ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .search_inputs{ float: left; min-height: 65px; clear: both; width: 100%; padding: 10px; border-radius: 3px; background: rgba(0,0,0,.5)}
@@ -154,7 +154,7 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .trip_type p input{ width:100%;cursor: pointer; height:17px; opacity: 0; position: absolute; left: 0; top: 0;}
 .trip_type span,.trip_facility span{ float: left; margin: 0 7px; font-size: 9px; color: #fff;}
 .search_items{ background: #fff; overflow: hidden; border-radius: 3px; float: left; clear: both; width: 100%; margin: 10px 0 0;}
-.search_items input,.search_items select,.search_items .inputs,.search_items .seats{ background: #fff; font-size: 13px; height: 40px; line-height: 40px; color: #38404A; font-weight: 300; float: left; border:none; padding: 5px; border-right: 1px solid #E3E6EA; width: 170px;}
+.search_items input,.search_items select,.search_items .inputs,.search_items .seats{ background: #fff; font-size: 13px; height: 40px; line-height: 40px; color: #38404A; font-weight: 400; float: left; border:none; padding: 5px; border-right: 1px solid #E3E6EA; width: 170px;}
 .search_items input.city_w{ width: 340px;}
 .search_items input.city_wn,.search_items select.city_wn{ width: 255px; border-radius: 0;}
 .search_items input.activities_w{ width:690px;}
