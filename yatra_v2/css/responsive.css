@@ -44,6 +44,7 @@
       .ul_2 li{ width: 100%;}
       .ul_2 li:first-child{ margin-bottom: 20px;}
       .budgets li:first-child{ margin: 0;}
+      .search_inputs .commondiv{ padding: 10px;} 
 }
 
 @media only screen 
