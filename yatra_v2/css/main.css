@@ -85,7 +85,7 @@ li{ list-style: none;}
 /*.ul_3 li:first-child,.ul_4 li:first-child,.ul_6 li:first-child{ padding-left: 0;}
 .ul_3 li:last-child,.ul_4 li:last-child,.ul_6 li:last-child{ padding-right: 0;}*/
 
-.punch_line{ width: 90%; font-size:30px; color:rgba(255,255,255,.6); font-weight: 300; text-align: center; line-height:45px; padding: 30px 0; display: block; margin: 0 auto; clear: both;}
+.punch_line{ width: 90%; font-size:30px; color:rgba(255,255,255,.6); font-weight: 300; text-align: center; line-height:45px; padding: 100px 0; display: block; margin: 0 auto; clear: both;}
 
 
 #main_section{ width: 100%; display: block; clear: both;}
