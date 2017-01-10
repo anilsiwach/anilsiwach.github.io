@@ -87,7 +87,6 @@ li{ list-style: none;}
 
 .punch_line{ width: 90%; font-size:30px; color:rgba(255,255,255,.6); font-weight: 300; text-align: center; line-height:45px; padding: 100px 0; display: block; margin: 0 auto; clear: both;}
 
-
 #main_section{ width: 100%; display: block; clear: both;}
 .main_header{ position: relative;width: 100%; height: 630px; display: block; background: url(../images/header_bg_img.jpg) top center; background-size: cover;}
 .boundry{ max-width: 1140px; margin: 0 auto; padding: 0;}
@@ -192,13 +191,13 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .search_items i{ font-size: 17px; position: absolute; top: 18px; right:5px;}
 .search_items .last{ border: none;}
 .search_items button{ overflow: hidden;float: right; width:110px; height:50px; background: #4990E2; color: #fff; font-size: 16px; line-height:50px; text-align: center; border:none; transition: all ease .5s; cursor: pointer;}
-.search_items button:hover{ transition: all ease .5s; background: #387FD2; font-size: 13px;}
+.search_items button:hover{ transition: all ease .5s; background: #387FD2;}
 .trip_type p i{ position: relative;width: 12px; height: 12px; float: right; margin:-1px 0 0 5px; cursor: pointer;background: url(../images/info-button.svg) center; background-size:100% 100%;}
 .trip_type p i span{ opacity: 0; z-index: 1; pointer-events: none;position: absolute; top: -5px; left:35px; width: 270px;; background: #fff; border-radius: 3px; font-size: 11px; line-height: 15px; color: #8F969E; padding: 5px; box-shadow: 0 0 4px rgba(0,0,0,.2);transition: all ease .5s;}
 .trip_type p i span:before{ content: " "; float: left; border-bottom: 7px solid transparent; border-left: 7px solid transparent; border-right: 7px solid #fff; margin:5px 0 0 -19px;}
 .trip_type p i:hover span{ opacity:1; transition: all ease .5s; left:15px;}
 .trip_type p i span strong{ font-size: 11px; color: #676D74; padding: 0 0 5px; display: block;}
-.no_traveller{ display: none; z-index: 2; width: 270px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.2); border-radius: 3px; right:30px; top: 80px; position: absolute;}
+.no_traveller{ display: none; z-index: 2; width: 270px; background: #fff; box-shadow: 0 2px 4px rgba(0,0,0,.2); border-radius: 3px; right:30px; top:100px; position: absolute;}
 .no_traveller:before{float: left; content: ""; border-bottom:8px solid #fff; border-left: 8px solid transparent; border-right: 8px solid transparent; margin:-8px 0 0 15px;}
 .no_traveller ul.seat{ float: left; padding: 10px; width: 100%;}
 .no_traveller ul.seat li{ font-size: 14px; color: #3C434C; font-weight: 500; list-style: none; float: left; width: 100%; padding:12px 0; border-bottom: 1px solid #E3E6EA; line-height: 30px;}
@@ -218,7 +217,7 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .ofr_cmn .bx-wrapper{ margin: 0 15px; float: left; width: 100%;}
 .ofr_cmn .bx-wrapper .bx-viewport{ padding: 0;}
 .pstn_rlt div.ofr_cmn:first-child{ display: block; opacity: 1; z-index: 2;}
-.booking_offers ul li .offer_div{ cursor: auto; width: 100%; position: relative; float: left; padding:15px 20px 15px 10px;}
+.booking_offers ul li .offer_div{ cursor: pointer; width: 100%; position: relative; float: left; padding:15px 20px 15px 10px;}
 .booking_offers ul li .offer_div:before{ content:""; position: absolute; top:0; left: 0; width: 100%; height: 3px; background:rgba(158,56,2,.8); transition: all .3s ease; z-index: -1;}
 .booking_offers ul li:nth-child(odd) .offer_div:before{ background:rgba(44,93,125,.8)}
 .booking_offers ul li:hover .offer_div:before{ height: 100%; transition: all .3s ease;}
@@ -227,7 +226,7 @@ ul.booking_lobs li.active:after{ width: 100%; transition: all ease .2s;}
 .booking_offers ul li span{ position: relative; display: block; clear: both; line-height: 18px; padding:5px 0; font-size: 12px; color: #E4E8EE;}
 .booking_offers ul li span i{ display: block; clear: both; font-size: 10px; color: #AAAFB6; text-transform: uppercase;}
 .booking_offers ul li a{ position: relative; font-size: 9px; text-transform: uppercase; text-decoration: underline;color: #FFAB1F;}
-.explor_wrld .offer_div{ background: url(../images/explore_the_world.png) right center no-repeat; background-size:75px 75px;}
+.explor_wrld .offer_div{ background: url(../images/explore_the_world.png) right center no-repeat; background-size:60px 60px;}
 
 
 
