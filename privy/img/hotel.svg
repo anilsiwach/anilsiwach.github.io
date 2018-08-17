@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="30px" viewBox="0 0 31 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-707.000000, -1074.000000)" fill="#E0C182" fill-rule="nonzero">
+            <g id="ic_host_address_verification_icon" transform="translate(657.000000, 1071.000000)">
+                <g id="Double-Bed">
+                    <path d="M81,26 L81,24 C60.3333333,24 50,24 50,24 C50,24 50,24.6666667 50,26 C70.6666667,26 81,26 81,26 L81,29.25 C81,30.215125 80.2311429,31 79.2857143,31 L78,31 L78,33 L76,33 L76,31 L55,31 L55,33 L53,33 L53,31 L51.7142857,31 C50.7688571,31 50,30.215125 50,29.25 C50,25.75 50,24 50,24 C50,24 60.3333333,24 81,24 L81,26 Z M77,12 L81,24 L50,24 L53,12 L57,12 L57,12.2857143 C57,13.2311429 57.784875,14 58.75,14 L62.25,14 C63.215125,14 64,13.2311429 64,12.2857143 L64,12 L66,12 L66,12.2857143 C66,13.2311429 66.784875,14 67.75,14 L71.25,14 C72.215125,14 73,13.2311429 73,12.2857143 L73,12 L77,12 Z M77,10 L73,10 L73,9.71428571 C73,8.76885714 72.215125,8 71.25,8 L67.75,8 C66.784875,8 66,8.76885714 66,9.71428571 L66,10 L64,10 L64,9.71428571 C64,8.76885714 63.215125,8 62.25,8 L58.75,8 C57.784875,8 57,8.76885714 57,9.71428571 L57,10 L53,10 L53,6 C53,4.34314575 54.3431458,3 56,3 L74,3 C75.6568542,3 77,4.34314575 77,6 L77,10 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

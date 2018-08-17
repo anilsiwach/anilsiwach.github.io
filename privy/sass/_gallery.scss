@@ -1,0 +1,76 @@
+.gallery {
+    max-width: 1060px;
+    width: 100%;
+    margin: 0 auto 3rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    &__item {
+        position: relative;
+        min-height: 300px;
+        flex:0 0 33.33334%;
+        justify-content: space-between;
+        overflow: hidden;
+        cursor: pointer;
+        border: 1rem solid rgba(0, 0, 0, 0);
+    }
+
+    &__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+
+        & img{
+            min-width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        & .taging{
+            position: absolute;
+            bottom: 0;
+            text-align: center;
+            justify-content: space-between;
+            -webkit-transition: max-height 1s; 
+            -moz-transition: max-height 1s; 
+            -ms-transition: max-height 1s; 
+            -o-transition: max-height 1s; 
+            transition: max-height 1s;  
+            overflow: hidden;
+            max-height: 4rem;
+            width: 100%;
+
+            & .content{
+                background: rgba(230, 198, 133, 0.8);
+                color: #2B1435;
+                padding: 1rem 4rem;
+
+                & span{
+                    text-align: center;
+                    font-weight: 300;
+                    font-size: 1.2rem;
+                    font-style: italic;
+                    color: #2B1435;
+                }
+
+                & p{
+                    text-align: center;
+                    color: #2B1435;
+                    padding: 0;
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        &:hover{
+            .taging{
+                max-height:50rem;
+                overflow: none;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,36 @@
+@import "functions";
+@import "mixins";
+@import "variables";
+
+@import "animation";
+@import "base";
+@import "typography";
+@import "utilities";
+
+@import "button";
+@import "gallery";
+@import "sliderHome";
+
+@import "footer";
+@import "header";
+@import "navigation";
+
+@import "home";
+@import "about";
+@import "pursuits";
+@import "detail";
+@import "tour";
+@import "gallery-main";
+@import "travel-advisor";
+@import "reviews";
+
+
+@import "slick-theme";
+@import "slick";
+@import "multislider";
+
+
+.YatraLogo{
+    height: 25px;
+}
+

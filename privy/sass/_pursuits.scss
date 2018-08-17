@@ -1,0 +1,145 @@
+.pursuits {
+    background: #1b1b1b;
+    text-align: center;
+
+    &__images{
+        width: 100%;
+        margin: 0 auto 6rem;
+        min-height: 700px;
+        // background: rgba(255,255,255,.1);
+        background: url(../img/pursuits.png) no-repeat center center ; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        
+        &::after{
+            display: block;
+            position: absolute;
+            background: rgba(0,0,0,.3);
+            height: 100%;
+            width: 100%;
+            content: '';
+            left: 0;
+            bottom: 0;
+        }
+    }
+
+    & .gallery__item{
+        min-height: 500px;
+    }
+
+    &__headings{
+        max-width: 550px;
+        margin:-5rem auto 0;
+        z-index: 1;
+
+        & h1{
+            font-size: 4.5rem;
+        }
+
+        & h3{
+            color: #fff;
+        }
+    }
+
+    & .gallery{
+        margin-top: -15rem;
+    }
+}
+
+
+
+
+@media (min-width: 320px){
+    .pursuits{
+        & .gallery{
+
+            &__image{
+                
+                & .taging{
+
+                    & .content{
+
+                        & p{
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+
+            &__item{
+                min-height: 250px;
+                flex: 0 0 100%;
+                border: 1rem solid #1b1b1b;
+
+
+            }
+        }
+
+    }
+
+}
+
+
+@media (min-width:540px){
+    .pursuits{
+        &__images{
+            min-height: 480px;
+        }
+        & .gallery{
+
+            &__image{
+                
+                & .taging{
+
+                    & .content{
+
+                        & p{
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+            }
+
+            &__item{
+                min-height: 250px;
+                flex: 0 0 50%;
+                border: 1rem solid #1b1b1b;
+
+
+            }
+        }
+
+    }
+
+}
+
+
+@media (min-width:768px){
+    .pursuits{
+        &__images{
+            min-height:800px;
+        }
+    }
+  }
+
+
+  @media (min-width:1024px){
+    .pursuits{
+       
+        & .gallery{
+            &__item{
+                min-height:350px;
+                flex: 0 0 50%;
+                border: 1rem solid #1b1b1b;
+
+
+            }
+        }
+    }
+  }
