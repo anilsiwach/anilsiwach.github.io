@@ -111,6 +111,17 @@ space professional journey
 }
 
 /*================================
+Yatra
+================================*/
+#yatrarebranding{
+    color: #fff;
+    text-align: center;
+    background: url(../img/yatra_rebranding.jpg)no-repeat; /*your background image*/
+    max-height: 880px;
+    overflow: hidden;
+}
+
+/*================================
 sony style
 ================================*/
 #sony{
